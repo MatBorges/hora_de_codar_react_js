@@ -5,4 +5,9 @@
     color: brown;
     margin: auto;
     padding: 20px;
+    border-radius: 5px;
+}
+
+.imgPessoa{
+    border-radius: 5px;
 }

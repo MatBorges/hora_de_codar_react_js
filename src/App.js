@@ -1,13 +1,14 @@
 import './App.css';
-import HelloWorld from './components/HelloWorld';
-import Pessoa from './components/Pessoa';
+import Evento from './components/Evento';
+import Form from './components/Form';
 
 function App() {
 
   return (
     <div className="App">
-      <HelloWorld />
-      <Pessoa foto='https://via.placeholder.com/150' nome='Mateus' idade='25' cargo='DEV'/>           
+      <h1>Teste</h1>
+      
+      <Form placeHolder='Digite aqui o Seu nome' value='Login'/>      
     </div>
   );
 }
